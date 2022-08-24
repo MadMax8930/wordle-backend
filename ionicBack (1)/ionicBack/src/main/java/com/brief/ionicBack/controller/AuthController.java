@@ -1,6 +1,6 @@
 package com.brief.ionicBack.controller;
 
-import com.brief.ionicBack.config.security.JwtUtils;
+import com.brief.ionicBack.security.JwtUtils;
 import com.brief.ionicBack.model.ERole;
 import com.brief.ionicBack.model.Role;
 import com.brief.ionicBack.model.User;

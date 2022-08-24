@@ -1,4 +1,4 @@
-package com.brief.ionicBack.config.security;
+package com.brief.ionicBack.security;
 
 import com.brief.ionicBack.service.serviceImpl.detailsImpl.UserDetailsServiceImpl;
 import org.slf4j.Logger;

@@ -1,4 +1,4 @@
-package com.brief.ionicBack.config.security;
+package com.brief.ionicBack.security;
 
 import com.brief.ionicBack.service.serviceImpl.detailsImpl.UserDetailsImpl;
 import io.jsonwebtoken.*;

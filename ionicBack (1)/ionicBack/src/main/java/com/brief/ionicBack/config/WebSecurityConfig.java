@@ -1,7 +1,7 @@
 package com.brief.ionicBack.config;
 
-import com.brief.ionicBack.config.security.AuthEntryPointJwt;
-import com.brief.ionicBack.config.security.AuthTokenFilter;
+import com.brief.ionicBack.security.AuthEntryPointJwt;
+import com.brief.ionicBack.security.AuthTokenFilter;
 import com.brief.ionicBack.service.serviceImpl.detailsImpl.UserDetailsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -10,7 +10,6 @@ import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
-import org.springframework.security.config.annotation.web.WebSecurityConfigurer;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
