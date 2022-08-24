@@ -26,6 +26,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
         // jsr250Enabled = true,
         prePostEnabled = true)
 public class WebSecurityConfig  extends WebSecurityConfigurerAdapter {
+
     @Autowired
     UserDetailsServiceImpl userDetailsService;
 
@@ -60,13 +61,13 @@ public class WebSecurityConfig  extends WebSecurityConfigurerAdapter {
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).and()
                 .authorizeRequests().antMatchers("/api/auth/**").permitAll()
 
-                .antMatchers("/api/admin/**").hasAuthority("ROLE_ADMIN")
+                .antMatchers("/api/**").hasAuthority("ROLE_JOUEUR")
                 // .antMatchers("/auth/*").hasAuthority("ROLE_USER")
 
-                .antMatchers(HttpMethod.GET,"/api/produits/**").permitAll()
-                .antMatchers(HttpMethod.POST,"/api/produit/**").permitAll()
-                .antMatchers(HttpMethod.PUT,"/api/produit/**").permitAll()
-                .antMatchers(HttpMethod.DELETE,"/api/produit/**").permitAll()
+                .antMatchers(HttpMethod.GET,"/api/**").permitAll()
+                .antMatchers(HttpMethod.POST,"/api/**").permitAll()
+                .antMatchers(HttpMethod.PUT,"/api/**").permitAll()
+                .antMatchers(HttpMethod.DELETE,"/api/**").permitAll()
                 .antMatchers("/api/test/**").permitAll()
                 .anyRequest().authenticated();
 
