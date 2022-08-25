@@ -11,12 +11,16 @@ import java.util.List;
 
 @Service
 @Transactional
-public class UserServiceImpl {
+public class UserServiceImpl implements UserService {
 
      @Autowired
     private UserRepository userRepository;
 
+    @Override
     public List<User> userList() {
         return userRepository.findAll();
+    }
+    public User findById(long id) {
+        return userRepository.findById(id).get();
     }
 }
