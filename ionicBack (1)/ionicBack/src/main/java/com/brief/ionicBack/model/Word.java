@@ -14,7 +14,11 @@ public class Word {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     long id;
-    String content;
 
+    @Column(name = "word")
+    private String word;
 
+    public Word(String content) {
+        this.word = content;
+    }
 }
