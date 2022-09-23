@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5756502b-6fcb-4ea4-8cb9-25754ad8b81f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/brief/ionicBack/config/InitDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/brief_ionic.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_jakarta_mail_1_6_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ionicBack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ionicBack.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/IonicBackApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/IonicBackApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/config/DevCorsConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/config/DevCorsConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/config/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/controller/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/controller/WordController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/controller/WordController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/dto/WordFoundDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/dto/WordFoundDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/model/ERole.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/model/ERole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/model/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/model/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/model/Word.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/model/Word.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/model/WordFound.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/model/WordFound.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/playload/request/LoginRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/playload/request/LoginRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/playload/request/SignupRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/playload/request/SignupRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/playload/response/JwtResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/playload/response/JwtResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/playload/response/MessageResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/playload/response/MessageResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/repository/RoleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/repository/RoleRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/repository/WordFoundRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/repository/WordFoundRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/repository/WordRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/repository/WordRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/security/AuthEntryPointJwt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/security/AuthEntryPointJwt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/security/AuthTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/security/AuthTokenFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/security/JwtUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/security/JwtUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/service/WordFoundService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/service/WordFoundService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/service/WordService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/service/WordService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/service/serviceImpl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/service/serviceImpl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/service/serviceImpl/WordFoundServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/service/serviceImpl/WordFoundServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/service/serviceImpl/WordServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/service/serviceImpl/WordServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/service/serviceImpl/detailsImpl/UserDetailsImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/service/serviceImpl/detailsImpl/UserDetailsImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/service/serviceImpl/detailsImpl/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brief/ionicBack/service/serviceImpl/detailsImpl/UserDetailsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/brief/ionicBack/IonicBackApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/brief/ionicBack/IonicBackApplicationTests.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="m13k5ehc" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2DnrS7xkKNcO82lqZIa9BmqpOWw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/max/Desktop/DEV/presentation/brief_ionic_back",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="IonicBackApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.brief.ionicBack.IonicBackApplication" />
+      <module name="ionicBack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.brief.ionicBack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5756502b-6fcb-4ea4-8cb9-25754ad8b81f" name="Changes" comment="" />
+      <created>1661345686310</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661345686310</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/brief_ionic_back$IonicBackApplication.ic" NAME="IonicBackApplication Coverage Results" MODIFIED="1663946097822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.brief.ionicBack.*</FILTER>
+    </SUITE>
+  </component>
+</project>

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/brief_ionic.iml" filepath="$PROJECT_DIR$/.idea/brief_ionic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ionicBack (1)/ionicBack/ionicBack.iml" filepath="$PROJECT_DIR$/ionicBack (1)/ionicBack/ionicBack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ionicBack.iml" filepath="$PROJECT_DIR$/ionicBack.iml" />
     </modules>
   </component>
 </project>
