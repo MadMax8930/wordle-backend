@@ -16,8 +16,10 @@ public class InitDatabase implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        Role role = new Role(null, ERole.ROLE_ADMIN);
-        repository.save(role);
+        if (repository.findAll().size() >= 1) {
+            Role role = new Role(null, ERole.ROLE_ADMIN);
+            repository.save(role);
+        }
         System.out.println("role sauvé");
 
     }
