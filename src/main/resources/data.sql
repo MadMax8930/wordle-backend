@@ -1,5 +1,3 @@
-
-INSERT INTO roles(name) VALUES('ROLE_ADMIN');
 INSERT INTO `word`(`content`) VALUES ('ajout');
 INSERT INTO `word`(`content`) VALUES ('cache');
 INSERT INTO `word`(`content`) VALUES ('lampe');

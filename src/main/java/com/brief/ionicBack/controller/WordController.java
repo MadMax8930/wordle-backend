@@ -45,10 +45,17 @@ public class WordController {
     @Autowired
     UserServiceImpl userService;
 
+
     @GetMapping("/api/word")
     public List<Word> getAllWords(){
-         return wordRepository.findAll();
+        return wordRepository.findAll();
     }
+
+    @PostMapping("/api/wordadd")
+    public Word postWordArray(@RequestBody Word string){
+        return wordRepository.save(string);
+    }
+
 
     @GetMapping("/api/wordfound")
     public List<WordFoundDTO> getAllWordsFound(){

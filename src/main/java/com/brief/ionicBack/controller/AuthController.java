@@ -1,5 +1,6 @@
 package com.brief.ionicBack.controller;
 
+import com.brief.ionicBack.model.Word;
 import com.brief.ionicBack.security.JwtUtils;
 import com.brief.ionicBack.model.ERole;
 import com.brief.ionicBack.model.Role;
@@ -68,7 +69,7 @@ public class AuthController {
     @GetMapping("/api/auth/initrole")
     public void initRole() {
         roleRepository.save(new Role(0 , ERole.ROLE_ADMIN));
-    } 
+    }
 
     @PostMapping("/api/auth/register")
     public ResponseEntity<?> registerUser(@Valid @RequestBody SignupRequest signupRequest){
