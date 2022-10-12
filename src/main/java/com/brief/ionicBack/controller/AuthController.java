@@ -18,6 +18,7 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -63,6 +64,11 @@ public class AuthController {
                 userDetails.getUsername(),
                 userDetails.getEmail(),roles));
     }
+
+    @GetMapping("/api/auth/initrole")
+    public void initRole() {
+        roleRepository.save(new Role(0 , ERole.ROLE_ADMIN));
+    } 
 
     @PostMapping("/api/auth/register")
     public ResponseEntity<?> registerUser(@Valid @RequestBody SignupRequest signupRequest){
